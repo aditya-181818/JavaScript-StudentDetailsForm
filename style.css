@@ -1,0 +1,41 @@
+.body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#studentForm{
+    border: 1px solid black;
+    padding: 10px;
+    width:fit-content;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+#btn{
+    height: 30px;
+    width: 80px;
+    border-radius: 10%;
+    border: none;
+    background-color: steelblue;
+    color: white;
+    cursor: pointer;
+}
+
+#btn:hover{
+    transform: scale(1.1);
+    background-color: green;
+}
+
+#ans{
+    text-align: center;
+    color:black;
+    font-size: larger;
+}
